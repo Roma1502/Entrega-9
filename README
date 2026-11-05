@@ -1,0 +1,40 @@
+# RetailPro — Proyecto Analista de Datos | Coderhouse
+
+Proyecto de análisis de ventas para RetailPro, construido en el curso de Analista de Datos de Coderhouse.
+
+El objetivo es que cualquier analista nuevo pueda entender el proyecto, reproducir los resultados y continuarlo sin depender de quien lo creó.
+
+- **Autora:** Romina Rossi (Roma1502)
+- **Bases de datos:** `Retailpro` (Pre-entrega 4) y `Ventas_Tech_DB` (Pre-entrega 5)
+- **Motor SQL:** Microsoft SQL Server (SSMS)
+- **Modelo analítico:** Power BI, sobre el dataset `Pipeline_ETL_Dataset.xlsx` (ver sección *Power BI*)
+
+## Herramientas usadas
+
+- **SQL Server (SSMS):** consultas, JOINs, agregaciones, vistas.
+- **Power BI:** Power Query (ETL), modelo de datos con relaciones, tabla calendario y medidas DAX.
+- **Excel:** fuente del dataset de Power BI y controles manuales.
+- **IA (versiones gratuitas):** ChatGPT y Claude. Se usó para borradores de documentación, optimización de consultas y análisis de insights. Todos los resultados fueron verificados manualmente.
+- No se usaron modelos predictivos ni Machine Learning: están fuera del alcance del curso.
+
+## Estructura del repositorio
+
+- **Pre-entrega 4:** consultas SQL de negocio (`Entrega_4_Romina_Rossi.sql`)
+- **Pre-entrega 5:** consultas con JOINs (`Entrega_5_Romina_Rossi.sql`)
+- **Power BI:** `Pipeline_ETL_Rossi_Romina.pbix` (ETL) y `Rossi_Romina_Checkpoint2.pbix` (modelo y medidas)
+- **Pre-entrega 9:** documentación y trazabilidad
+
+## Cómo ejecutar los scripts SQL
+
+### 1. Preparar la base
+
+Abrí SQL Server Management Studio (SSMS) y seleccioná la base que corresponde a cada archivo:
+
+```sql
+-- Pre-entrega 4
+USE Retailpro;
+GO
+
+-- Pre-entrega 5
+USE Ventas_Tech_DB;
+GO
